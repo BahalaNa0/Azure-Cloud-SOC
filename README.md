@@ -1,4 +1,4 @@
-![Azure Cloud SOC ](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/8978e62d-823a-4748-94b6-c3dbefd37cf7)
+![Azure Cloud SOC ](https://i.imgur.com/ihht7i2.png)
 
 # Introduction
 
@@ -44,13 +44,13 @@ After remediating the vulnerabilities outlined by NIST 800-53, I ran the environ
 
 # Architecture Before Implementation of Security Controls
 
-![Architecture Before](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/becdd761-5ea0-4f83-9fa5-fe5d0783464d)
+![Architecture Before](https://i.imgur.com/ScYnsSm.png)
 
 During the first 24 hours, all resources within the honeynet were exposed to the internet intentionally. The VM's firewalls and NSGs were left wide open. The Key Vault and Storage were configured with public endpoints which were also exposed to the internet. All resources had logging enabled which was ingested and queried by the Log Analytics Workspace and Sentinel aggregates the logs generated to generate alerts and incidents.
 
 # Architecture After Implementation of Security Controls
 
-![Architecture After](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/4e48f45b-b12b-45a7-8535-56369f3ffad3)
+![Architecture After](https://i.imgur.com/OpifEC8.png)
 
 After the first 24 hours, security controls were implemented in order to be compliant with NIST 800-53. The following tactics were applied:
 
@@ -64,19 +64,19 @@ After the first 24 hours, security controls were implemented in order to be comp
 
 The malicious traffic of the Network Security Groups (NSGs):
 
-![NSG Map](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/b28561e8-9070-4558-9fcb-835f1988adf6)
+![NSG Map](https://i.imgur.com/b05ztIO.png)
 
 The malicious traffic of the Linux syslog attempt ssh logins:
 
-![Linux Map](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/592eca6b-30d5-496c-95d4-1f94f49a92fb)
+![Linux Map](https://i.imgur.com/iYCmnfO.png)
 
 The malicious traffic of the Windows attempt Remote Desktop Protocol (RDP) logins:
 
-![Windows Map](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/a4d8d34e-7a73-4c5f-9aa1-c166213b7491)
+![Windows Map](https://i.imgur.com/qO4p3VN.png)
 
 The malicious traffic of the Microsoft SQL Server (hosted on Windows VM) attempt logins:
 
-![MSSQL Map](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/bba05b9f-073d-42a5-869d-43068fa5af5f)
+![MSSQL Map](https://i.imgur.com/ItnMQcK.png)
 
 # Metrics Before Implementation of Security Controls 
 
@@ -94,11 +94,11 @@ Stop Time 07/24/2023, 08:44 PM
 
 # Investigating Incidents in Sentinel
 
-![Sentinel Windows Brute Force](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/935ef6f8-2b3d-44e5-8dad-76b374019ab5)
+![Sentinel Windows Brute Force](https://i.imgur.com/Qxu3hv4.png)
 
-![Sentinel Investigate Brute Force](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/a848255e-54fb-48e7-ab46-ccfb9e4e4c7b)
+![Sentinel Investigate Brute Force](https://i.imgur.com/lfbWdZq.png)
 
-![Sentinel Windows Brute Force KQL Query](https://github.com/BahalaNa0/Azure-Cloud-SOC/assets/120359627/d64fabfc-b8a0-4b00-86ef-8277cb54cc27)
+![Sentinel Windows Brute Force KQL Query](https://i.imgur.com/E42bmQ7.png)
 
 # Attack Maps After Implementation of Security Controls
 
