@@ -50,7 +50,7 @@ During the first 24 hours, all resources within the honeynet were exposed to the
 
 # Architecture After Implementation of Security Controls
 
-![Architecture After](https://i.imgur.com/OpifEC8.png)
+![Architecture After](https://i.imgur.com/oy1dmHo.png)
 
 After the first 24 hours, security controls were implemented in order to be compliant with NIST 800-53. The following tactics were applied:
 
