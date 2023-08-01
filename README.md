@@ -122,10 +122,10 @@ Stop Time 07/27/2023, 08:22 PM
 | Metric                   | Count
 | ------------------------ | -----
 | SecurityEvent            | -39.05%
-| Syslog                   | 99.98%
-| SecurityAlert            | 100%
-| SecurityIncident         | 100%
-| AzureNetworkAnalytics_CL | 100%
+| Syslog                   | -99.98%
+| SecurityAlert            | -100%
+| SecurityIncident         | -100%
+| AzureNetworkAnalytics_CL | -100%
 
 
 # Conclusion
