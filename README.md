@@ -1,4 +1,4 @@
-![Azure Cloud SOC ](https://i.imgur.com/ihht7i2.png)
+![Azure Cloud SOC ](https://i.imgur.com/Pn73AKI.png)
 
 # Introduction
 
